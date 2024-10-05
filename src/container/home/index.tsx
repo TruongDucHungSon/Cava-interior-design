@@ -10,11 +10,11 @@ const HomePage = () => {
 			<SectionProduct />
 			<SectionForYou
 				image="https://ancuong.com/webadmin-v2/pictures/files/product-solution/compact/VN/1.jpg"
-				title="For You"
+				title="Tối ưu không gian sống của bạn"
 			/>
 			<SectionForYou
 				image="https://ancuong.com/webadmin-v2/pictures/files/new-product/giay-dan-tuong/giay-dan-tuong.jpg"
-				title="For You"
+				title="Thiết kế không gian thông minh"
 			/>
 
 			<SectionProductTrend />
