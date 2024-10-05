@@ -8,8 +8,15 @@ const HomePage = () => {
 		<main>
 			<Banner />
 			<SectionProduct />
-			<SectionForYou />
-			<SectionForYou />
+			<SectionForYou
+				image="https://ancuong.com/webadmin-v2/pictures/files/product-solution/compact/VN/1.jpg"
+				title="For You"
+			/>
+			<SectionForYou
+				image="https://ancuong.com/webadmin-v2/pictures/files/new-product/giay-dan-tuong/giay-dan-tuong.jpg"
+				title="For You"
+			/>
+
 			<SectionProductTrend />
 		</main>
 	);

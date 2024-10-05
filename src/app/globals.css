@@ -74,11 +74,14 @@
 }
 
 /* config style swiper */
-.swiper-button-next::after,
-.swiper-button-prev::after {
+.swiper-button-next,
+.swiper-button-prev {
 	color: #fff !important;
 	width: 30px !important;
 	height: 30px !important;
+	@media screen and (max-width: 996px) {
+		display: none !important;
+	}
 }
 
 .swiper-pagination-bullet {

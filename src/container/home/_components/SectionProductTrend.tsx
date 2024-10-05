@@ -6,14 +6,30 @@ const SectionProductTrend = () => {
 				thiết kế xu hướng mới cho căn hộ văn phòng nơi kinh doanh của bạn
 			</h4>
 			<div className=" grid grid-cols-1 lg:grid-cols-2 gap-x-6 gap-y-6 lg:gap-y-12 px-0 lg:px-20">
-				<ProductTrending />
-				<ProductTrending />
-				<ProductTrending />
-				<ProductTrending />
-				<ProductTrending />
-				<ProductTrending />
-				<ProductTrending />
-				<ProductTrending />
+				<ProductTrending
+					image="https://ancuong.com/webadmin-v2/pictures/files/product-solution/lux-effect/thumb.jpg"
+					title="Thiết kế phòng bếp"
+				/>
+				<ProductTrending
+					image="https://ancuong.com/webadmin-v2/pictures/files/product-solution/lux-effect/thumb.jpg"
+					title="Thiết kế phòng bếp"
+				/>
+				<ProductTrending
+					image="https://ancuong.com/webadmin-v2/pictures/files/product-solution/lux-effect/thumb.jpg"
+					title="Thiết kế phòng bếp"
+				/>
+				<ProductTrending
+					image="https://ancuong.com/webadmin-v2/pictures/files/product-solution/lux-effect/thumb.jpg"
+					title="Thiết kế phòng bếp"
+				/>
+				<ProductTrending
+					image="https://ancuong.com/webadmin-v2/pictures/files/product-solution/lux-effect/thumb.jpg"
+					title="Thiết kế phòng bếp"
+				/>
+				<ProductTrending
+					image="https://ancuong.com/webadmin-v2/pictures/files/product-solution/lux-effect/thumb.jpg"
+					title="Thiết kế phòng bếp"
+				/>
 			</div>
 		</section>
 	);

@@ -45,3 +45,5 @@ export const IMAGE_SLIDE = [
 		SlideSrc: slide5,
 	},
 ] as const;
+
+export const DATA_PRODUCTA = [{}] as const;

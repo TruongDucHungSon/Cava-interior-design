@@ -36,7 +36,7 @@ const Banner = () => {
 						className="h-full"
 					>
 						<OptimizedImage
-							width={1000}
+							width={2000}
 							height={1000}
 							className="h-full"
 							src={slide.SlideSrc.src}

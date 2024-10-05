@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Footer = () => {
 	return (
 		<footer className="w-full bg-[#eeeeee] py-5">
-			<div className="container flex items-center">
+			<div className="container flex items-center flex-wrap gap-6">
 				<div className="px-0 lg:px-20 flex items-center gap-3">
 					<div className="max-w-[55px] max-h-[55px] lg:max-w-[70px] lg:max-h-[70px] bg-slate-500 p-1 ">
 						<Logo />
@@ -16,7 +16,7 @@ const Footer = () => {
 						<p className="text-xs lg:text-sm">Interior</p>
 					</div>
 				</div>
-				<div className="flex items-center gap-8">
+				<div className="flex items-center gap-8 flex-wrap">
 					<div className="w-12 h-12">
 						<Link href={'https://zalo.me/0345197586'}>
 							<OptimizedImage
