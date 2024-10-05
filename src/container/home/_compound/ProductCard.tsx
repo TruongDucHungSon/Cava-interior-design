@@ -1,7 +1,6 @@
-import OptimizedImage from '../../components/CustomImage/OptimizedImage';
-
+import OptimizedImage from '@/components/CustomImage/OptimizedImage';
 import Link from 'next/link';
-import slide1 from '../../assets/images/banner/slide1.jpg';
+import slide1 from '../../../assets/images/banner/slide1.jpg';
 
 const ProductCard = () => {
 	return (

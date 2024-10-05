@@ -1,7 +1,7 @@
 import Banner from '@/components/Banner/Banner';
-import SectionForYou from '@/container/_components/SectionForYou';
-import SectionProduct from '@/container/_components/SectionProduct';
-import SectionProductTrend from '@/container/_components/SectionProductTrend';
+import SectionForYou from './_components/SectionForYou';
+import SectionProduct from './_components/SectionProduct';
+import SectionProductTrend from './_components/SectionProductTrend';
 
 const HomePage = () => {
 	return (

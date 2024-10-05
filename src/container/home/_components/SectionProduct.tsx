@@ -1,4 +1,4 @@
-import ProductCard from '@/container/_compound/ProductCard';
+import ProductCard from '../_compound/ProductCard';
 
 const SectionProduct = () => {
 	return (

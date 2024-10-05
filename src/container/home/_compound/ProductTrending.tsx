@@ -1,6 +1,6 @@
 import OptimizedImage from '@/components/CustomImage/OptimizedImage';
 import Link from 'next/link';
-import ProductSrc from '../../assets/images/Products/product1.jpg';
+import ProductSrc from '../../../assets/images/Products/product1.jpg';
 const ProductTrending = () => {
 	return (
 		<div>
