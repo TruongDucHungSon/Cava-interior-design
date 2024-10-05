@@ -8,9 +8,8 @@ interface OptimizedImageProps {
 	alt: string;
 	fallbackSrc?: string;
 	className?: string;
-	width: number;
-	height: number;
-	layout?: 'fill' | 'fixed' | 'intrinsic' | 'responsive'; //
+	width?: number;
+	height?: number;
 	priority?: boolean;
 }
 
@@ -21,7 +20,6 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
 	className,
 	width,
 	height,
-	layout = 'intrinsic',
 	priority = false,
 }) => {
 	const [imgSrc, setImgSrc] = React.useState<string>(src);
@@ -37,9 +35,8 @@ const OptimizedImage: React.FC<OptimizedImageProps> = ({
 			src={imgSrc}
 			alt={alt}
 			className={`${className} object-cover w-full h-full cursor-pointer`}
-			width={width}
-			height={height}
-			layout={layout}
+			width={width || 500}
+			height={height || 500}
 			priority={priority}
 			onError={handleError}
 		/>

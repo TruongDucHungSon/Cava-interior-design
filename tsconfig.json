@@ -1,27 +1,32 @@
 {
 	"compilerOptions": {
-		"target": "ES6",
-		"lib": ["dom", "dom.iterable", "esnext"],
-		"allowJs": true,
-		"skipLibCheck": true,
-		"strict": true,
-		"noEmit": true,
-		"esModuleInterop": true,
-		"module": "esnext",
-		"moduleResolution": "Node",
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"jsx": "preserve",
-		"incremental": true,
+		"target": "ES6", // Updated to ES6 for modern JavaScript features and better performance
+		"lib": ["dom", "dom.iterable", "esnext"], // Keep support for DOM and ESNext features
+		"allowJs": true, // Allows JavaScript in the project, which is useful in some cases
+		"skipLibCheck": true, // Skipping lib check improves build times
+		"strict": true, // Strict type-checking is good practice for catching issues early
+		"noEmit": true, // No files will be emitted (since Next.js handles builds)
+		"esModuleInterop": true, // Ensures compatibility between CommonJS and ES6 modules
+		"module": "ESNext", // Use ESNext module system for dynamic imports and modern syntax
+		"moduleResolution": "Node", // Ensures compatibility with Node.js-style module resolution
+		"resolveJsonModule": true, // Allows importing JSON files
+		"isolatedModules": true, // Ensures that each file is treated as a separate module
+		"jsx": "preserve", // Keep JSX in the output for Next.js to handle
+		"incremental": true, // Speeds up TypeScript recompilation
 		"plugins": [
 			{
-				"name": "next"
+				"name": "next" // Next.js plugin for TypeScript
 			}
 		],
 		"paths": {
-			"@/*": ["./src/*"]
+			"@/*": ["./src/*"] // Path aliases for cleaner imports
 		}
 	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-	"exclude": ["node_modules"]
+	"include": [
+		"next-env.d.ts", // Type definitions for Next.js environment variables
+		"**/*.ts",
+		"**/*.tsx",
+		".next/types/**/*.ts" // Include Next.js types (generated during the build)
+	],
+	"exclude": ["node_modules"] // Exclude unnecessary directories
 }

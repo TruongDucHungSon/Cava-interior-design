@@ -6,19 +6,36 @@ const config: Config = {
 		'./src/pages/**/*.{js,ts,jsx,tsx,mdx}',
 		'./src/components/**/*.{js,ts,jsx,tsx,mdx}',
 		'./src/app/**/*.{js,ts,jsx,tsx,mdx}',
+		'./src/**/*.{js,ts,jsx,tsx,mdx}',
 	],
 	theme: {
 		extend: {
 			container: {
 				center: true,
+
 				padding: {
 					DEFAULT: '16px',
+					lg: '60px',
 				},
 			},
 			screens: {
 				sm: '599.98px',
 				md: '767.98px',
 				lg: '1023.98px',
+			},
+			fontSize: {
+				xs: 'clamp(0.75rem, 1.2vw, 0.875rem)', // Small size
+				sm: 'clamp(0.875rem, 1.3vw, 1rem)', // Small-Medium size
+				base: 'clamp(1rem, 1.5vw, 1.125rem)', // Default size
+				lg: 'clamp(1.125rem, 1.7vw, 1.25rem)', // Large size
+				xl: 'clamp(1.25rem, 2vw, 1.5rem)', // Extra Large size
+				'2xl': 'clamp(1.5rem, 2.5vw, 2rem)', // 2x Large size
+				'3xl': 'clamp(1.875rem, 3vw, 2.25rem)', // 3x Large size
+			},
+
+			fontFamily: {
+				montserrat: ['Montserrat, sans-serif'],
+				roboto: ['Roboto, sans-serif'],
 			},
 			backdropBlur: {
 				10: '10px',
@@ -35,7 +52,7 @@ const config: Config = {
 					foreground: 'hsl(var(--popover-foreground))',
 				},
 				primary: {
-					blue: '#43a1b6',
+					blue: '#39a3b7',
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))',
 				},
