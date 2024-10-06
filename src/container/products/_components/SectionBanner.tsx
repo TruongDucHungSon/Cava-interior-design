@@ -2,7 +2,7 @@ import OptimizedImage from '@/components/CustomImage/OptimizedImage';
 
 const SectionBanner = () => {
 	return (
-		<section>
+		<section className="h-[400px] lg:h-[700px]">
 			<OptimizedImage
 				width={2000}
 				height={1000}

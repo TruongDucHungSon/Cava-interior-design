@@ -15,11 +15,11 @@ export const Menu = [
 	},
 	{
 		label: 'Giải pháp',
-		path: '/giaiphat',
+		path: '/',
 	},
 	{
 		label: 'Dự án',
-		path: '/duan',
+		path: '/',
 	},
 ] as const;
 
