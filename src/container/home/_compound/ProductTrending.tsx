@@ -9,7 +9,7 @@ const ProductTrending = ({ image, title }: ProductTrendingProps) => {
 	return (
 		<div>
 			<div className="h-[340px] relative overflow-hidden group">
-				<Link href={'/'}>
+				<Link href={'/sanpham/1'}>
 					<OptimizedImage
 						width={1000}
 						height={700}

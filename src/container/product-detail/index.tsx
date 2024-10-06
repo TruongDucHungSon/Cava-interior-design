@@ -1,10 +1,9 @@
-import React from 'react';
-import SectionBannerDetail from './_components/SectionBannerDetail';
-
+import SectionInforProduct from './_components/SectionInforProduct';
 const ProductDetail = () => {
 	return (
 		<main>
-			<SectionBannerDetail />
+			{/* <SectionBannerDetail /> */}
+			<SectionInforProduct />
 		</main>
 	);
 };

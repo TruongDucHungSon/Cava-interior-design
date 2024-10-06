@@ -9,7 +9,7 @@ interface ProductCardProps {
 const ProductCard = ({ image, title }: ProductCardProps) => {
 	return (
 		<div className="max-h-[330px] relative group">
-			<Link href={'/'}>
+			<Link href={'/sanpham/1'}>
 				<OptimizedImage
 					width={2000}
 					height={1000}
