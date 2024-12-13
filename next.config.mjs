@@ -12,6 +12,21 @@ const nextConfig = {
 				hostname: 'swiperjs.com',
 				pathname: '/**',
 			},
+			{
+				protocol: 'https',
+				hostname: 'kaze.com.vn',
+				pathname: '/**',
+			},
+			{
+				protocol: 'https',
+				hostname: 'images.unsplash.com',
+				pathname: '/**',
+			},
+			{
+				protocol: 'https',
+				hostname: 'noithatbinhduong.vn',
+				pathname: '/**',
+			},
 		],
 	},
 };

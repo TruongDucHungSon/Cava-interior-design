@@ -11,11 +11,9 @@ const config: Config = {
 	theme: {
 		extend: {
 			container: {
-				center: true,
-
+				center: true, // Đảm bảo nội dung được căn giữa
 				padding: {
-					DEFAULT: '16px',
-					lg: '60px',
+					DEFAULT: '1rem', // Tương ứng với 16px, áp dụng cho mọi màn hình
 				},
 			},
 			screens: {

@@ -39,7 +39,7 @@ const Banner = () => {
 							width={2000}
 							height={1000}
 							className="h-full"
-							src={slide.SlideSrc.src}
+							src={slide.img}
 							alt="banner"
 						/>
 					</SwiperSlide>

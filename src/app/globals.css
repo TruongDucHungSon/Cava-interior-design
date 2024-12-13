@@ -76,6 +76,7 @@
 /* config style swiper */
 .swiper-button-next,
 .swiper-button-prev {
+	display: none;
 	color: #fff !important;
 	width: 30px !important;
 	height: 30px !important;
@@ -90,4 +91,18 @@
 
 .swiper-pagination-bullet-active {
 	background: #fff !important;
+}
+
+.swiper-pagination-horizontal {
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	gap: 4px !important;
+	bottom: 10px !important;
+	> .swiper-pagination-bullet {
+		border-radius: 0 !important;
+		height: 4px !important;
+		width: 30px !important;
+		background-color: #fbbf24 !important; /* Màu vàng */
+	}
 }

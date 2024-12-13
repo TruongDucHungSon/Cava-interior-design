@@ -1,6 +1,6 @@
-import LogoSrc from '@/assets/images/logo/logo.png';
-import OptimizedImage from '@/components/CustomImage/OptimizedImage';
+import Image from 'next/image';
 import Link from 'next/link';
+import LogoSrc from '../../assets/images/logo/logo.jpg';
 
 interface LogoProps {
 	className?: string;
@@ -8,17 +8,17 @@ interface LogoProps {
 
 const Logo = ({ className }: LogoProps) => {
 	return (
-		<Link
-			href={'/'}
-			className={`${className}`}
-		>
-			<OptimizedImage
-				width={200}
-				height={200}
-				src={LogoSrc.src}
-				alt="logo"
-			/>
-		</Link>
+		<div className={`w-[180px] ${className}`}>
+			<Link href="/">
+				<Image
+					src={LogoSrc} // sử dụng src trực tiếp từ import
+					alt="logo"
+					width={180} // chiều rộng thực tế
+					height={50} // chiều cao thực tế
+					priority // ưu tiên tải ảnh
+				/>
+			</Link>
+		</div>
 	);
 };
 
